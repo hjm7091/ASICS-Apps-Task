@@ -2,7 +2,7 @@ package task2;
 
 public class Util {
 
-    public static boolean invalid(final String[] words) {
+    public static boolean haveInvalid(final String[] words) {
         if (words.length == 0) {
             System.out.println("Please enter some words.");
             return true;
