@@ -12,7 +12,7 @@ Consequently, the ability to save files is an essential requirement for this web
 - The default file-saving strategy is to save files to the local file system, but it should be adaptable to use AWS S3 for improved scalability.
 - Multiple domains (Draft, Category, and Comment) can independently store files, so the implemented file system should be designed for reusability.
 
-#### 3. Domain Modeling (File & Folder)
+#### 3. Domain Modeling (Folder & File)
 
 <img width="395" alt="image" src="https://github.com/donetop/donetop/assets/28583661/03a4bc95-ad9a-4d17-9576-039f40246da3">
 
